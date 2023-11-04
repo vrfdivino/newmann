@@ -55,7 +55,7 @@
     <a name="appearance" val="evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="1.0"/>
+    <a name="simulationFrequency" val="128.0"/>
     <comp lib="0" loc="(100,430)" name="Clock">
       <a name="label" val="GLB_CLK"/>
     </comp>
@@ -160,12 +160,17 @@
     <wire from="(1050,380)" to="(1050,430)"/>
     <wire from="(1070,330)" to="(1070,370)"/>
     <wire from="(1070,370)" to="(1070,540)"/>
-    <wire from="(1080,310)" to="(1080,460)"/>
-    <wire from="(1080,460)" to="(1110,460)"/>
+    <wire from="(1080,420)" to="(1080,470)"/>
+    <wire from="(1080,470)" to="(1090,470)"/>
     <wire from="(1090,280)" to="(1090,440)"/>
     <wire from="(1090,440)" to="(1110,440)"/>
+    <wire from="(1090,460)" to="(1090,470)"/>
+    <wire from="(1090,460)" to="(1110,460)"/>
+    <wire from="(1090,470)" to="(1090,820)"/>
     <wire from="(110,420)" to="(110,430)"/>
     <wire from="(110,420)" to="(180,420)"/>
+    <wire from="(110,430)" to="(110,820)"/>
+    <wire from="(110,820)" to="(1090,820)"/>
     <wire from="(1130,600)" to="(1130,620)"/>
     <wire from="(1130,620)" to="(1270,620)"/>
     <wire from="(1170,600)" to="(1170,610)"/>
@@ -206,7 +211,7 @@
     <wire from="(300,230)" to="(300,430)"/>
     <wire from="(300,230)" to="(590,230)"/>
     <wire from="(300,430)" to="(300,580)"/>
-    <wire from="(300,430)" to="(450,430)"/>
+    <wire from="(300,430)" to="(460,430)"/>
     <wire from="(300,580)" to="(460,580)"/>
     <wire from="(340,500)" to="(350,500)"/>
     <wire from="(350,250)" to="(350,310)"/>
@@ -225,9 +230,6 @@
     <wire from="(440,460)" to="(440,610)"/>
     <wire from="(440,460)" to="(460,460)"/>
     <wire from="(440,610)" to="(460,610)"/>
-    <wire from="(450,350)" to="(450,430)"/>
-    <wire from="(450,350)" to="(820,350)"/>
-    <wire from="(450,430)" to="(460,430)"/>
     <wire from="(500,260)" to="(560,260)"/>
     <wire from="(560,250)" to="(560,260)"/>
     <wire from="(560,250)" to="(590,250)"/>
@@ -309,10 +311,6 @@
     <wire from="(810,510)" to="(810,560)"/>
     <wire from="(810,510)" to="(910,510)"/>
     <wire from="(810,560)" to="(810,630)"/>
-    <wire from="(820,310)" to="(1080,310)"/>
-    <wire from="(820,310)" to="(820,350)"/>
-    <wire from="(820,350)" to="(820,400)"/>
-    <wire from="(820,400)" to="(910,400)"/>
     <wire from="(820,420)" to="(820,470)"/>
     <wire from="(840,670)" to="(840,700)"/>
     <wire from="(840,700)" to="(840,740)"/>
@@ -329,6 +327,9 @@
     <wire from="(880,330)" to="(1010,330)"/>
     <wire from="(880,330)" to="(880,370)"/>
     <wire from="(880,370)" to="(910,370)"/>
+    <wire from="(890,400)" to="(890,420)"/>
+    <wire from="(890,400)" to="(910,400)"/>
+    <wire from="(890,420)" to="(1080,420)"/>
     <wire from="(890,450)" to="(890,490)"/>
     <wire from="(890,450)" to="(950,450)"/>
     <wire from="(890,550)" to="(890,650)"/>
@@ -967,7 +968,7 @@
     </comp>
     <comp lib="0" loc="(360,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="CLK_N"/>
+      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(660,400)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -1722,7 +1723,7 @@
     </comp>
     <comp lib="0" loc="(360,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="CLK_N"/>
+      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(880,290)" name="Pin">
       <a name="appearance" val="NewPins"/>

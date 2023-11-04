@@ -663,7 +663,7 @@
     <a name="appearance" val="evolution"/>
     <a name="circuit" val="SAP1_VAR"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="16.0"/>
+    <a name="simulationFrequency" val="16000.0"/>
     <comp lib="0" loc="(1080,160)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="facing" val="west"/>
